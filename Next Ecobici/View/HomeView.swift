@@ -14,7 +14,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Bienvenido \(authenticationViewModel.user?.email ?? "@email")")
+                Text("Welcome \(authenticationViewModel.user?.email ?? "@email")")
                     .padding(.top, 32)
                 Spacer()
             }
