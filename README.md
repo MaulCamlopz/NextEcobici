@@ -1,12 +1,12 @@
 # NextEcobici
 
-*Prueba técnica - iOS Mobile*
+**Prueba técnica - iOS Mobile**
 
 *Descripción*
 
 Desarrollar una aplicación nativa en SwiftUI que permita iniciar sesión y muestre un listado de las Ecobicis y su detalle.
 
-*Requisitos*
+**Requisitos**
 
 - La aplicación debe contar con una vista que permita el inicio de sesión utilizando Firebase.
 - ⁠La aplicación debe mostrar un listado con las primeras 50 estaciones de Ecobici.
@@ -18,11 +18,11 @@ Desarrollar una aplicación nativa en SwiftUI que permita iniciar sesión y mues
     - Nombre
     - Total de lugares
 
-*Recursos*
+**Recursos**
 
 - Listado de Ecobicis: (link unavailable)
 
-*Instrucciones*
+**Instrucciones**
 
 1.⁠ ⁠Crear una nueva aplicación en SwiftUI.
 2.⁠ ⁠Implementar la vista de inicio de sesión utilizando Firebase.
@@ -30,15 +30,15 @@ Desarrollar una aplicación nativa en SwiftUI que permita iniciar sesión y mues
 4.⁠ ⁠Mostrar el listado de estaciones con nombre y bicicletas disponibles.
 5.⁠ ⁠Implementar la vista de detalles para cada estación, incluyendo mapa y datos adicionales.
 
-*Diseño*
+**Diseño**
 
 - ⁠La aplicación debe seguir las guías de diseño de Apple iOS: (link unavailable)
 
-*Imagen de referencia*
+**Imagen de referencia**
 
 ![Captura de pantalla 2024-10-18 a la(s) 9 07 26 a m](https://github.com/user-attachments/assets/2814ce38-72f6-46d3-b566-407da68d1ec1)
 
-*Evaluación*
+**Evaluación**
 
 La aplicación será evaluada según los siguientes criterios:
 
