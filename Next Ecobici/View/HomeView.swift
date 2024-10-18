@@ -15,16 +15,12 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color.white.ignoresSafeArea()
-                List(dataViewModel.stations ?? [], id: \.id) { station in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(station.name.capitalized)
-                                .font(.headline)
-                            Text("Free Bikes:\(station.freeBikes)")
-                                .font(.subheadline)
-                            Text("Empty Slots:\(station.emptySlots)")
-                                .font(.subheadline)
+                List() {
+                    ForEach(dataViewModel.stations?.prefix(50) ?? [] ) { station in
+                        NavigationLink {
+                            MapView()
+                        } label: {
+                            StationRow(station: station)
                         }
                     }
                 }
@@ -42,6 +38,7 @@ struct HomeView: View {
                     authenticationViewModel.logout()
                 }
             }
+            
         }
         .onAppear {
             Task {
@@ -54,7 +51,6 @@ struct HomeView: View {
                 message: Text(dataViewModel.dataError?.errorDescription ?? "")
             )
         }
-        
     }
     
 }

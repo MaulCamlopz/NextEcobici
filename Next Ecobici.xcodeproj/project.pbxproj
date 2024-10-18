@@ -11,6 +11,8 @@
 		D93405322CC1FCF700D13EBF /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93405312CC1FCF700D13EBF /* WebService.swift */; };
 		D93405342CC1FF7800D13EBF /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93405332CC1FF7800D13EBF /* DataViewModel.swift */; };
 		D93405362CC20C5E00D13EBF /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93405352CC20C5E00D13EBF /* LoaderView.swift */; };
+		D93405392CC2233900D13EBF /* StationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93405382CC2233900D13EBF /* StationRow.swift */; };
+		D934053B2CC22A7000D13EBF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934053A2CC22A7000D13EBF /* MapView.swift */; };
 		D9E06A192CC080B200B63B1F /* Next_EcobiciApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E06A182CC080B200B63B1F /* Next_EcobiciApp.swift */; };
 		D9E06A1D2CC080B300B63B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E06A1C2CC080B300B63B1F /* Assets.xcassets */; };
 		D9E06A202CC080B300B63B1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E06A1F2CC080B300B63B1F /* Preview Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		D93405312CC1FCF700D13EBF /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		D93405332CC1FF7800D13EBF /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 		D93405352CC20C5E00D13EBF /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		D93405382CC2233900D13EBF /* StationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRow.swift; sourceTree = "<group>"; };
+		D934053A2CC22A7000D13EBF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D9E06A152CC080B200B63B1F /* Next Ecobici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Next Ecobici.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E06A182CC080B200B63B1F /* Next_EcobiciApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next_EcobiciApp.swift; sourceTree = "<group>"; };
 		D9E06A1C2CC080B300B63B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				D9E06A4A2CC0CF8A00B63B1F /* SignUpView.swift */,
 				D9E06A5B2CC0DF5B00B63B1F /* HomeView.swift */,
 				D93405352CC20C5E00D13EBF /* LoaderView.swift */,
+				D93405382CC2233900D13EBF /* StationRow.swift */,
+				D934053A2CC22A7000D13EBF /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -344,10 +350,12 @@
 			files = (
 				D9E06A5C2CC0DF5B00B63B1F /* HomeView.swift in Sources */,
 				D9E06A4B2CC0CF8A00B63B1F /* SignUpView.swift in Sources */,
+				D93405392CC2233900D13EBF /* StationRow.swift in Sources */,
 				D9E06A542CC0D4D700B63B1F /* AuthenticationFirebaseDatasource.swift in Sources */,
 				D9E06A562CC0D54D00B63B1F /* User.swift in Sources */,
 				D93405302CC1E0C500D13EBF /* EcobiciAPIModel.swift in Sources */,
 				D93405362CC20C5E00D13EBF /* LoaderView.swift in Sources */,
+				D934053B2CC22A7000D13EBF /* MapView.swift in Sources */,
 				D9E06A432CC086C100B63B1F /* LoginView.swift in Sources */,
 				D9E06A5A2CC0D7D400B63B1F /* AuthenticationViewModel.swift in Sources */,
 				D9E06A192CC080B200B63B1F /* Next_EcobiciApp.swift in Sources */,
