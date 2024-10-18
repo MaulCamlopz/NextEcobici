@@ -87,5 +87,5 @@ extension MapView {
 }
 
 #Preview {
-    MapView()
+    MapView(station: Station(id: "01", name: "", latitude: 19.430515, longitude: -99.203331, freeBikes: 10, emptySlots: 10, extra: Extra(slots: 20)))
 }

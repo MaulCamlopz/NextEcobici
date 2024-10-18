@@ -18,7 +18,7 @@ struct HomeView: View {
                 List() {
                     ForEach(dataViewModel.stations?.prefix(50) ?? [] ) { station in
                         NavigationLink {
-                            MapView()
+                            MapView(station: station)
                         } label: {
                             StationRow(station: station)
                         }
