@@ -30,8 +30,8 @@ struct MapView: View {
     let maxWidthForIpad: CGFloat = 700
     
     @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 19.430515, longitude: -99.203331),
-        span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+        center: CLLocationCoordinate2D(latitude: 19.4326077, longitude: -99.133208),
+        span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
     )
     
     @State private var annotations: [Annotation] = []
@@ -56,7 +56,7 @@ struct MapView: View {
             }
         }
         .onAppear {
-            let annotation = Annotation(title: "", coordinate: CLLocationCoordinate2D(latitude: 19.430515, longitude: -99.203331))
+            let annotation = Annotation(title: "", coordinate: CLLocationCoordinate2D(latitude: station.latitude, longitude: station.longitude))
             annotations.append(annotation)
         }
     }
@@ -67,12 +67,12 @@ extension MapView {
     
     private var header: some View {
         VStack {
-            Text("CE-031 Hamburgo - Insurgentes")
+            Text("\(station.name)")
                 .font(.headline)
                 .fontWeight(.semibold)
                 .foregroundColor(.blue)
                 .frame(maxWidth: .infinity)
-            Text("Slots: 37\nFree bikes: 30\nEmpty slots: 3,")
+            Text("Slots: \(station.extra?.slots ?? 0)\nFree bikes: \(station.freeBikes)\nEmpty slots: \(station.emptySlots),")
                 .font(.subheadline)
                 .fontWeight(.regular)
                 .foregroundColor(.black)
@@ -87,5 +87,5 @@ extension MapView {
 }
 
 #Preview {
-    MapView(station: Station(id: "01", name: "", latitude: 19.430515, longitude: -99.203331, freeBikes: 10, emptySlots: 10, extra: Extra(slots: 20)))
+    MapView(station: Station(id: "01", name: "station name", latitude: 19.430515, longitude: -99.203331, freeBikes: 0, emptySlots: 0, extra: Extra(slots: 0)))
 }
