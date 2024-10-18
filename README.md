@@ -20,7 +20,7 @@ Desarrollar una aplicación nativa en SwiftUI que permita iniciar sesión y mues
 
 **Recursos**
 
-- Listado de Ecobicis: (link unavailable)
+- Listado de Ecobicis: https://api.citybik.es/v2/networks/ecobici
 
 **Instrucciones**
 
@@ -32,7 +32,8 @@ Desarrollar una aplicación nativa en SwiftUI que permita iniciar sesión y mues
 
 **Diseño**
 
-- ⁠La aplicación debe seguir las guías de diseño de Apple iOS: (link unavailable)
+- ⁠La aplicación debe seguir las guías de diseño de Apple iOS: https://developer.apple.com/design/human-interface-
+guidelines/lists-and-tables
 
 **Imagen de referencia**
 
