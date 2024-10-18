@@ -32,8 +32,7 @@ Desarrollar una aplicación nativa en SwiftUI que permita iniciar sesión y mues
 
 **Diseño**
 
-- ⁠La aplicación debe seguir las guías de diseño de Apple iOS: https://developer.apple.com/design/human-interface-
-guidelines/lists-and-tables
+- ⁠La aplicación debe seguir las guías de diseño de Apple iOS: https://developer.apple.com/design/human-interface-guidelines/lists-and-tables
 
 **Imagen de referencia**
 
